@@ -63,8 +63,8 @@
 				<div class="col-12" id="recept"><h1>Receptenwebsite.nl</h1></div>
 		  </div>
 		  
-			<div class="row d-print-none">
-				<div class="col-12 col-md-3 rowtwo">
+			<div class="row">
+				<div class="col-12 col-md-3 rowtwo d-print-none">
 				  <h3>Menu</h3>
 				  <ul id="list">
 					  <li><a href="">Home</a></li>
@@ -96,28 +96,27 @@
 				 	Neem de pizzataart uit de oven en bestrooi met de rucola.<br> 
 				  	Serveer direct. </p>
 				  	<img src="pizzapie.jpg" title="Het eindresultaat!" alt="Een voltooide pizzataart">
-					<h5>Reageer</h5>
-					<form class="form-group">
-						<label>Naam
-						<input type="text"name="name" required>
-						</label>
-						<br>
-						<input type="radio" name="gender" value="female">Vrouw
-						<input type="radio" name="gender" value="male"> Man
-						<input type="radio" name="gender" value="other">Overige
-						<br>
-						<label>E-mail
-						<input type="email" for="E-mail" name="email">
-						</label>
-						<br>
-						<label>Reactie
-						<textarea maxlength="750" for="Reactie" placeholder="Plaats hier uw reactie..." required></textarea>
-						</label>
-						<br>
-						<input type="submit" class="btn btn-success" value="Plaats Reactie">
+					<h5 class="d-print-none">Reageer</h5>
+					<form class="d-print-none">
+						<div class="form-group">
+							<label>Naam</label>
+							<input type="text"name="name" required>
+						</div>
+							<input type="radio" name="gender" value="female">Vrouw
+							<input type="radio" name="gender" value="male"> Man
+							<input type="radio" name="gender" value="other">Overige
+						<div class="form-group">
+							<label>E-mail</label>
+							<input type="email" name="email">
+						</div>
+						<div class="form-group">
+							<label>Reactie</label>
+							<textarea maxlength="750" for="Reactie" placeholder="Plaats hier uw reactie..." required></textarea>
+						</div>
+							<input type="submit" class="btn btn-success" value="Plaats Reactie">
 					</form>
 					<br>
-					<button class="btn btn-warning" onclick="myFunction()">Print recept</button>
+					<button class="btn btn-warning d-print-none" onclick="myFunction()">Print recept</button>
 				</div>
 				
 				<div class="col-12 col-md-3 rowtwo">
