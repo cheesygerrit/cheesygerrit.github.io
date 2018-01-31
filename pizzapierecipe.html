@@ -97,16 +97,22 @@
 				  	Serveer direct. </p>
 				  	<img src="pizzapie.jpg" title="Het eindresultaat!" alt="Een voltooide pizzataart">
 					<h5>Reageer</h5>
-					<form>
-						<input type="text" for="Naam" name="name" required>
+					<form class="form-group">
+						<label>Naam
+						<input type="text"name="name" required>
+						</label>
 						<br>
 						<input type="radio" name="gender" value="female">Vrouw
 						<input type="radio" name="gender" value="male"> Man
 						<input type="radio" name="gender" value="other">Overige
 						<br>
+						<label>E-mail
 						<input type="email" for="E-mail" name="email">
+						</label>
 						<br>
+						<label>Reactie
 						<textarea maxlength="750" for="Reactie" placeholder="Plaats hier uw reactie..." required></textarea>
+						</label>
 						<br>
 						<input type="submit" class="btn btn-success" value="Plaats Reactie">
 					</form>
