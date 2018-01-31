@@ -54,12 +54,12 @@
 		</style>
 	</head>
 	<body>
-		<div class="container.fluid">
-		  <div class="row">
+		<div class="container.fluid" >
+		  <div class="row d-print-none">
 				<div class="col-12" id="recept"><h1>Receptenwebsite.nl</h1></div>
 		  </div>
 		  
-			<div class="row">
+			<div class="row d-print-none">
 				<div class="col-12 col-md-3 rowtwo">
 				  <h3>Menu</h3>
 				  <ul id="list">
@@ -70,7 +70,7 @@
 				</div>
 				
 				<div class="col-12 col-md-6 rowtwo">
-					<ul class="breadcrumb">
+					<ul class="breadcrumb d-print-none">
 					  <li><a href="#">Home</a></li>
 					  <br>
 					  <li><a href="#">Beste Recepten</a></li>
@@ -95,7 +95,7 @@
 				  
 					<h5>Reageer</h5>
 					<form>
-						<input type="text" for="aam" name="name" required>
+						<input type="text" for="Naam" name="name" required>
 						<br>
 						<input type="radio" name="gender" value="female">Vrouw
 						<input type="radio" name="gender" value="male"> Man
@@ -105,10 +105,10 @@
 						<br>
 						<textarea maxlength="750" for="Reactie" placeholder="Plaats hier uw reactie..." required></textarea>
 						<br>
-						<input type="submit" value="Plaats Reactie">
+						<input type="submit" class="button btn-succes" value="Plaats Reactie">
 					</form>
 					<br>
-					<button onclick="myFunction()">Print deze pagina</button>
+					<button class="button btn-warning d-print-none" onclick="myFunction()">Print recept</button>
 				</div>
 				
 				<div class="col-12 col-md-3 rowtwo">
