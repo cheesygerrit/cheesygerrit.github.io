@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Recept: Pizzataart</title>
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../recipe.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container.fluid" >
+		  <div class="row d-print-none">
+				<div class="col-12" id="recept"><h1>Receptenwebsite.nl</h1></div>
+		  </div>
+		  
+			<div class="row">
+				<div class="col-12 col-md-3 rowtwo d-print-none">
+				  <h3>Menu</h3>
+				  <ul id="list">
+					  <li><a href="../index.htm">Home</a></li>
+					  <li><a href="">Contact</a></li>
+					  <li><a href="">Partners</a></li>
+				  </ul>
+				</div>
+				
+				<div class="col-12 col-md-6 rowtwo">
+					<ul class="breadcrumb d-print-none">
+					  <li><a href="../index.html">Home</a></li>
+					  <br>
+					  <li><a href="#">Beste Recepten</a></li>
+					  <br>
+					  <li>Pizzataart</li>
+					</ul>
+				  	<h1>Pizzataart</h1>
+					<p>HAPJE – 12 PORTIES – 10 MIN. + 20 MIN. OVENTIJD</p>
+				  	<p><strong>Pizzabodems beleggen</strong><br>
+				  	Verwarm de oven voor op 200 °C. Snijd de mozzarella in blokjes. 
+				  	Verdeel de pestospread en mozzarella over 2 bodems en neem ook de randen mee. Verdeel de geraspte kaas en plakjes salami over de 2 andere bodems.<br> 
+				  	Neem bij 1 van de bodems ook de randen mee. 
+					Bestrooi de andere bodem met de oregano.</p>
+				  	<p><strong>Pizza’s stapelen</strong><br>
+				  	Leg een van de pizza’s met mozzarella op een met bakpapier beklede bakplaat en stapel om en om met de andere pizza’s.<br>
+					Eindig met de pizza met de oregano.</p>
+				  	<strong>Afbakken en garneren</strong><br>
+				  	Bak de pizzataart in 20 min. goudbruin en gaar. Neem na 15 min. uit de oven, verdeel de tomaten erover en bak nog 5 min.<br>
+				 	Neem de pizzataart uit de oven en bestrooi met de rucola.<br> 
+				  	Serveer direct. </p>
+				  	<img src="Images/pizzapie.jpg" title="Het eindresultaat!" alt="Een voltooide pizzataart">
+					<h5 class="d-print-none">Reageer</h5>
+					<form class="d-print-none">
+						<div class="form-group">
+							<label for="Nomenomen">Naam</label>
+							<input type="text" name="name" placeholder="Naam..." id="Nomenomen" class="form-control" required>
+						</div>
+							<input type="radio" name="gender" value="female">Vrouw
+							<input type="radio" name="gender" value="male"> Man
+							<input type="radio" name="gender" value="other">Overige
+						<div class="form-group">
+							<label for="johnnymail">E-mail</label>
+							<input type="email" name="email" placeholder="johannesdeeg@voorbeeld.com" id="johnnymail" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="actionreaction">Reactie</label>
+							<textarea maxlength="750" for="Reactie" placeholder="Plaats hier uw reactie..." id="actionreaction" class="form-control" required></textarea>
+						</div>
+							<input type="submit" class="btn btn-success" value="Plaats Reactie">
+					</form>
+					<br>
+					<button class="btn btn-warning d-print-none" onclick="myFunction()">Print recept</button>
+				</div>
+				
+				<div class="col-12 col-md-3 rowtwo">
+				  <h3>INGREDIËNTEN</h3> <br>
+					<ul>
+						<li>250 g mozzarella</li>
+						<li>90 g pestospread (bakje, koelvers)</li>
+						<li>4 pizzabodems tomaat (pak 2 stuks)</li>
+						<li>150 g geraspte kaas voor pizza</li>
+						<li>8 plakken goudsalami<br> (pak 85 g)</li> 
+						<li>1 tl gedroogde oregano</li>
+						<li>8 cherrytomaten (bakje)</li>
+						<li>1 handje rucola<br> (zak 40 g)</li>
+					</ul>
+					<div class="carousel slide d-print-none" id="foodCarousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#foodCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#foodCarousel" data-slide-to="1"></li>
+							<li data-target="#foodCarousel" data-slide-to="2"></li>
+						</ol>
+						
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="Images/lasagna.jpg" alt="lasagna">
+							</div>
+							
+							<div class="item">
+								<img src="Images/vegaburger.jpg" alt="vegaburger"> 
+							</div>
+							
+							<div class="item">
+								<img src="Images/oreochcake.jpg" alt="oreo cheesecake">
+							</div>
+						</div>
+						
+						<a class="left carousel-control" href="#foodCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#foodCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+						</a> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		function myFunction(){
+			window.print();
+		}
+		
+		$('.carousel').carousel()
+		</script>
+	</body>
+</html>

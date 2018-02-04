@@ -1,0 +1,49 @@
+	body {
+		font-family: 'Nunito', sans-serif;
+				overflow-x: hidden
+	}
+		
+	#recept {
+	 	background-color: #f41;
+	  	color: white;
+		text-align: center
+	}	
+
+	.rowtwo {
+		background-color: #ffe26a;
+	}
+				
+	#list { 
+		list-style-type: none; 
+		text-aling: left;
+		padding: 0
+	}
+			
+	.breadcrumb {
+		background-color:#f90
+	}
+			
+	ul.breadcrumb {
+		padding: 10px 16px
+	}
+			
+	ul.breadcrumb li {
+		padding:8px
+	}
+	
+	img {
+		width: 100%
+	}
+
+	a {
+		color: black
+	}
+
+	a:hover {
+		color: black;
+		text-decoration: overline
+	}
+
+	a:visited {
+		color:#005
+	}
