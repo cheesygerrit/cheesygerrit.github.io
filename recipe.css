@@ -2,7 +2,7 @@
 		font-family: 'Nunito', sans-serif;
 				overflow-x: hidden
 	}
-		
+
 	#recept {
 	 	background-color: #f41;
 	  	color: white;
@@ -12,23 +12,48 @@
 	.rowtwo {
 		background-color: #ffe26a;
 	}
-				
+	
 	#list { 
 		list-style-type: none; 
-		text-aling: left;
-		padding: 0
+		margin: 0px;
+		padding-left: 10px
 	}
-			
+	
+	#list li {
+		padding: 2px
+	}
+	
+	#menu {
+		padding-left:10px
+	}
+	
+	.btn-send {
+		background-color: #fedf0f
+	}
+	
+	.modal-decor {
+		background-color: white
+	}
+	
 	.breadcrumb {
-		background-color:#f90
+		background-color:#ffd900
 	}
-			
+
 	ul.breadcrumb {
 		padding: 10px 16px
 	}
-			
+	
 	ul.breadcrumb li {
 		padding:8px
+	}
+	
+	.cartext {
+		color: black;
+	}
+	
+	h3 {
+		margin-top: 15px;
+		margin-bottom:0px
 	}
 	
 	img {
@@ -36,14 +61,14 @@
 	}
 
 	a {
-		color: black
+		color: #f22
 	}
 
 	a:hover {
-		color: black;
-		text-decoration: overline
+		color: #f22;
+		text-decoration: underline
 	}
 
 	a:visited {
-		color:#005
+		color:#e52d00
 	}
