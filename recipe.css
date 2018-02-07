@@ -23,15 +23,31 @@
 		padding: 2px
 	}
 	
+	#list li li{
+		display: none;
+	}
+	
+	#list a {
+		font-size: 24px
+	}
+	
+	#list a:hover {
+		background-color: #f00;
+		color:#fff;
+		text-decoration: none;
+		padding-right: 25px 
+	}
+	
 	#menu {
-		padding-left:10px
+		font-size: 30px;
+		padding-left:12px
 	}
 	
 	.btn-send {
 		background-color: #fedf0f
 	}
 	
-	.modal-decor {
+	.modal-dialog {
 		background-color: white
 	}
 	
